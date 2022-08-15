@@ -1,0 +1,1000 @@
+<html>
+    <head>
+        <title>IANT Project</title>
+        <style>
+            *
+            {
+                margin: 0;
+                padding: 0;
+            }
+            #menu
+            {
+                width: 100%;
+                height: 120px;
+                position: fixed;
+                background: white;
+                border-bottom: 1px solid burlywood;
+               
+            }
+            #menu td img
+            {
+                width: 240px;
+                height: 100px;
+            }
+            #menu ul
+            {
+                list-style: none;
+            }
+            #menu ul li
+            {
+                float: left;
+                list-style: none;
+                position: relative;
+                padding-left: 10px;
+            }
+            #top
+            {
+                width: 550px;
+                height: 35px;
+                background: lightblue;
+                margin-bottom: 0px;
+            }
+            #top li
+            {
+                height: 35px;
+                text-align: center;
+                line-height: 35px;
+                margin-left: 10px;
+                
+            }
+            #menu ul li a
+            {
+                text-decoration: none;
+                color: black;
+                display: block;
+            }
+            #menu ul ul
+            {
+                display: none;
+                position: absolute;
+            }
+            #menu ul li:hover > ul
+            {
+                display: block;
+            }
+            #menu2 li
+            {
+                width: 90px;
+                height: 30px;
+                margin: 0px;
+                padding: 0px;
+                text-align: center;
+                position: relative;
+                text-align: center;
+                line-height: 30px;
+                background: white;
+            }
+            #menu3 
+            {
+               padding-top:19px;
+               width: 200px;
+            }
+            #topborder
+            {
+                 border-top: 0.5px solid black;
+            }
+            #menu3 li
+            {
+               font-size: 23px;
+                width: 270px;
+                height: 50px;
+                text-align: left;
+                margin: 0px;
+                padding: 0px;
+            }
+              #menu3 li a:hover
+            {
+                background: lightblue;
+                color: black;
+                width: 270px;
+                height: 35px;
+                
+            }
+            #menu4
+            {
+                padding-top:  20px;
+                position: absolute;
+            }
+            #menu4 li
+            {
+               font-size: 23px;
+                width: 200px;
+                height: 37px;
+                text-align: left;
+                margin: 0px;
+                padding: 0px;
+            }
+            #menu4 li a:hover
+            {
+                background: lightblue;
+                color: black;
+                width: 200px;
+                height: 35px;
+                
+            }
+            #page
+            {
+                width: 100%;
+                height: 500px; 
+                margin-top: 30px; 
+                padding-top: 70px;
+            }
+            #menu5
+            {
+               margin-left: 200px;
+                top: 0px;
+                border: 1px solid black;
+            }
+             #page2
+            {
+                width: 100%;
+                height: 600px;
+                background: cadetblue;
+                align-content: center;
+                text-align: center;
+                margin-bottom: 0px;
+            }
+            h1
+            {
+                text-align: center;
+            }
+            #PHP
+            {
+                background: white;
+                height: 400px;
+                font-size:19px;
+                float: left;
+                margin: 15px;
+                text-align: center;
+                 width: 270px;
+            }
+            #fist
+            {
+                 background: white;
+                height: 400px;
+                font-size:17px;
+                float: left;
+                margin: 15px;
+                text-align: center;
+                margin-left: 60px;
+                width: 270px;
+                font-size:19px;
+            }
+            #ph
+            {
+                width: 270px;
+            }
+            #tbite
+            {
+                width: 270px;
+                height: 400px;
+            }
+            #tc
+            {
+                width: 270px;
+                height: 400px;
+            }
+            #page3
+            {
+                width: auto;
+                height: 600px;
+                margin: 0px;
+                padding: 0px;
+                border: 0.5px solid burlywood;
+            }
+            #adv
+            {
+               width: 550px;
+                height: 600px;
+                margin: 0px;
+                padding: 0px;
+            }
+            #pic
+            {
+                float: left;
+                width: 600px;
+                height: 600px;
+            }
+            #IT
+            {
+                width: 150px;
+                height: 170px;
+                border: 1px solid black;
+                text-align: center;
+                margin: 10px;
+                float: left;
+            }
+            #dd
+            {
+                width: 150px;
+                height: 170px;
+                border: 1px solid black;
+                text-align: center;
+                margin: 10px;
+                margin-left: 40px;
+                float: left;
+            }
+            #de
+            {
+                width: 150px;
+                height: 170px;
+                border: 1px solid black;
+                text-align: center;
+                margin: 10px;
+                margin-left: 150px;
+                float: left;
+            }
+            #op
+            {
+                width: 150px;
+                height: 90px;
+            }
+             #page4
+            {
+                width: 100%;
+                height: 660px;
+                background: cadetblue;
+                margin-bottom: 0px;
+            }
+            #page41
+            {
+                width: 340px;
+                height: 420px;
+                background: white;
+                margin-left: 150px;
+                float: left;
+            }
+            #page42
+            {
+                margin-left: 6px;
+            }
+            #img41
+            {
+                width: 340px;
+                height: 230px;
+            }
+            #page43
+            {
+                width: 340px;
+                height: 420px;
+                background: white;
+               margin-left: 20px;
+                float: left;
+            }
+            #a42
+            {
+                width: 130px;
+                height: 50px;
+                background: white;
+                margin-top: 50px;
+                list-style: none;
+                float: right;
+                margin-right: 150px;
+                text-decoration: none;
+            }
+             #a421
+            {
+                width: 130px;
+                height: 50px;
+                background: rebeccapurple;
+                text-align: center;
+                line-height: 50px;
+                display: block;
+                list-style: none;
+            }
+             #a421 a
+            {
+                text-decoration: none;
+                display: block;
+                color:azure;
+            }
+             #a421 a:hover
+            {
+                background: lightblue;
+                color: black;
+                
+            }
+            #page5
+            {
+                width: auto;
+                height: 400px;
+                background:azure;
+            }
+            #a51
+            {
+                width: 220px;
+                height: 200px;
+                border: 1px solid black;
+                margin-left: 80px;
+                float: left;
+            }
+            #a511
+            {
+                width: 220px;
+                height: 200px;
+            }
+             #a52
+            {
+                width: 220px;
+                height: 200px;
+                border: 1px solid black;
+                margin-left: 20px;
+                float: left;
+            }
+            #page6
+            {
+                width: 100%;
+                height: 500px;
+                background: burlywood;
+                margin-bottom: 0px;
+                padding-top: 70px;
+            }
+            #a61
+            {
+                float: right;
+                padding-right: 20px;
+            }
+           #a61 a
+            {
+                text-decoration: none;
+                display: block;
+                color: deepskyblue;
+            }
+            #page7
+            {
+                padding-left: 70px;
+                width: auto;
+                height: 450px;
+            }
+            #page8
+            {
+                width: auto;
+                height: 380px;
+                padding-top: 50px;
+                background: darkgray;
+                padding-left: 80px;
+                padding-right: 80px;
+            }
+            #pg81
+            {
+                float: left;
+                margin-left: 50px;
+            }
+            #page9
+            {
+                width: auto;
+                height: 700px;
+                padding-left: 90px;
+                padding-right: 90px;
+                background: blanchedalmond;
+                margin-bottom: 0px;
+                padding-bottom: 0px;
+            }
+           #pg91
+            {
+                width: 350px;
+                height: 450px;
+                background: white;
+                float: left;
+                margin: 10px;
+            }
+            #img91
+            {
+                width: 350px;
+                height: 300px;
+            }
+            #a91
+            {
+                padding-left: 8px;
+            }
+            
+            #pagr11
+            {
+                width: auto;
+                height: 500px;
+                margin-top: 0px;
+            }
+            #a11
+            {
+                width: 50%;
+                height: 530px;
+                float: left;
+                text-align: center;
+                padding-top: 40px;
+                background: cadetblue;
+                align-items: center;
+            }
+            #a12
+            {
+                width: 50%;
+                height: 530px;
+                float: right;
+                text-align: center;
+                padding-top: 40px;
+                background: darkgrey; 
+                align-items: center;
+            
+            }
+            #page12
+            {
+                width: auto;
+                height: 600px;
+                background: blue;
+            }
+            #a121
+            {
+                width: 220px;
+                height: 200px;
+                color:white;
+                align-items: center;
+                text-align: center;
+                padding-top: 50px;
+                margin-left: 70px;
+                float: left;
+            }
+            #img121
+            {
+                width: 220px;
+                height: 200px;
+                background: white;
+            }
+            #a122
+            {
+                width: 150px;
+                height: 270px;
+                padding-left: 20px;
+                margin-top: 50px;
+                margin-left: 20px;
+                color: white;
+                float: left;
+            }
+            #a123
+            {
+                width: 170px;
+                height: 270px;
+                padding-left: 20px;
+                margin-top: 50px;
+                margin-left: 20px;
+                color: white;
+                float: left;
+            }
+            #a124
+            {
+                width: 240px;
+                height: 270px;
+                padding-left: 20px;
+                margin-top: 50px;
+                margin-left: 20px;
+                color: white;
+                float: left;
+            }
+            #a125
+            {
+                width: auto;
+                height: auto;
+                text-align: center;
+                color: white;
+                border-top: 1px solid white;
+                margin-top: 150px;
+                padding-top: 30px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <table id="menu">
+            <td width=30%><img src="logo.jpg"></td>
+            <td></td>
+            <td width=50%>
+                <ul id="top">
+                    <li>+91 9377916611</li>
+                    <li>contact@iantindia.com</li>
+                    <li>login</li>
+                    <li>More</li>
+                </ul>
+                <br clear=all>
+                <ul id="menu2">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a>
+                         <ul id="menu3">
+                             <li id="topborder"><a href="#">About IANT</a></li>
+                             <li><a href="#">From MD's Desk'</a></li>
+                             <li><a href="#">Team IANT</a></li>
+                         </ul>
+                    </li>
+                     <li><a href="#">Courses</a>
+                    <ul id="menu4">
+                             <li id="topborder"><a href="#">Career Cources</a>
+                                   <ul id="menu5">
+                                         <li><a href="#">CHNA-4</a></li>
+                                         <li><a href="#">CHNA-3</a></li>
+                                         <li><a href="#">NCE</a></li>
+                                         <li><a href="#">CSPE-4</a></li>
+                                         <li><a href="#">CSPE-3</a></li>
+                                         <li><a href="#">DISM</a></li>
+                                    </ul>             
+                                         </li>
+                             <li><a href="#">CompTIA</a>
+                                   <ul id="menu5">
+                                         <li><a href="#">CASP+</a></li>
+                                         <li><a href="#">CySA+</a></li>
+                                         <li><a href="#">CompTIA A+</a></li>
+                                         <li><a href="#"></a>CompTIA Network+</li>
+                                         <li><a href="#">CompTIA Cloud+</a></li>
+                                         <li><a href="#">CompTIA Security+</a></li>
+                                    </ul>       
+                            </li>
+                             <li><a href="#">RedHat</a>
+                                <ul id="menu5">
+                                         <li><a href="#">RHCSA</a></li>
+                                         <li><a href="#">RHCE</a></li>
+                                         <li><a href="#">RHCVA</a></li>
+                                         <li><a href="#"></a>Ansible</li>
+                                         <li><a href="#">Openstack</a></li>
+                                         <li><a href="#">Gluster Storage</a></li>
+                                    </ul>       
+                        </li>
+                             <li><a href="#">Star Certification</a>
+                                   <ul id="menu5">
+                                         <li><a href="#">Software Certification</a></li>
+                                         <li><a href="#">Cyber Security</a></li>
+                                         <li><a href="#">Disruptive Technologies</a></li>
+                                    </ul>      
+                        </li>
+                             <li><a href="#">Microsoft</a>
+                                   <ul id="menu5">
+                                         <li><a href="#">Microsoft-365</a></li>
+                                         <li><a href="#">MTA</a></li>
+                                         <li><a href="#">Azure</a></li>
+                                         <li><a href="#"></a>Server-2019</li>
+                                    </ul>          
+                        </li>
+                             <li><a href="#">Cisco</a>
+                                   <ul id="menu5">
+                                         <li><a href="#">CCNA</a></li>
+                                         <li><a href="#">CyberOps</a></li>
+                                         <li><a href="#">CCNP Enterprise</a></li>
+                                         <li><a href="#"></a>CCNP Security</li>
+                                         <li><a href="#">CCNP Collaboration</a></li>
+                                         <li><a href="#">Data Center</a></li>
+                                         <li><a href="#">Server Provider</a></li>
+                                    </ul>      
+                        </li>
+                             <li><a href="#">AWS Cloud</a>
+                                  <ul id="menu5">
+                                         <li><a href="#">Cloud Practitioner</a></li>
+                                         <li><a href="#">Associate</a></li>
+                                         <li><a href="#">Professional</a></li>
+                                    </ul>          
+                        </li>
+                             <li><a href="#">Google Cloud</a>
+                                    <ul id="menu5">
+                                         <li><a href="#">Associate</a></li>
+                                         <li><a href="#">Professional</a></li>
+                                    </ul>          
+                        </li>
+                         </ul>
+                    </li>
+                     <li><a href="#">Placement</a></li>
+                     <li><a href="#">Media</a></li>
+                     <li><a href="#">Blog</a></li>
+                </ul>
+            </td>
+        </table>
+        <br clear=all>
+        <table id="page">
+            <td width=100%><img src="https://iantindia.com/img/responsive-banner/Banner-1-World%20No%201%20IT%20-%20Home-Page.png"></td>
+        </table>
+        <br cleare=all>
+        <div id="page2">
+            <br><br>
+            <h1 id="iii">IANT Cources</h1>
+            <br all=clear>
+            <table>
+                <td>
+                    <div id="fist">
+                       <a href="#"><img id="ph" src="https://iantindia.com/img/courses/IOT.jpg"></a>
+                        <br>
+                        <h1>PHP</h1>
+                        PHP started out as a small open<br>
+                        source project that involved as<br>
+                        more and more people found out....
+                    </div> 
+                    <div id="PHP">
+                        <a href="#"><img id="ph" src="https://iantindia.com/img/courses//1.jpg"></a>
+                        <br>
+                        <h1>Android</h1>
+                        Android is an open source and<br>
+                       Linux-based Operating System for<br>
+                        Mobile device such as......
+                    </div>       
+                    <div id="PHP">
+                       <a href="#"><img id="ph" src="file:///D:\projects\IANT Frontend/scroll_redhat.jpg"></a>
+                        <br>
+                        <h1>Red Hat</h1>
+                        The best Red Hat certified <br>
+                      Partner.
+                    </div> 
+                    <div id="PHP">
+                        <a href="#"><img id="tc" src="techbytes.jpg"></a>
+                    </div>
+                </td>
+            </table>
+        </div>
+         <br clear=all>
+        <div id="page3">
+            <div id="pic"><a href=""><img id="adv" src="advantages.jpg"></a></div>
+            <div>
+                <table>
+                    <br><br><br>
+                    <h1>The IANT Andvantages</h1>
+                    <br><br><br><br>
+                    <td>
+                        <div id="dd">
+                            <img id="op" src="logoh.png">
+                                      <br>
+                             Two Decades of IT<br>
+                             Training Experience
+                         </div>
+                        <div id="IT">
+                            <img id="op" src="logoh.png">
+                                      <br>
+                             Strong Network of<br>
+                            110+ Centers<br>
+                            Across India
+                         </div>
+                        <div id="IT">
+                            <img id="op" src="logoh.png">
+                                      <br>
+                            No.1 Partner of Red<br>
+                            Hat, Star<br> Certification &<br>
+                            CompTIA
+                         </div>
+                        <div id="IT">
+                            <img id="op" src="logoh.png">
+                                      <br>
+                                  100% job<br>
+                                  Gaurantee
+                         </div><br>
+                        <div id="de">
+                            <img id="op" src="logoh.png">
+                                      <br>
+                            Hybrid Model of<br>
+                            Training –<br>
+                            Classroom + Online
+                         </div>
+                        <div id="IT">
+                            <img id="op" src="logoh.png">
+                                      <br>
+                            World Class<br>
+                            Training Labs
+                         </div>
+                        <div id="IT">
+                            <img id="op" src="logoh.png">
+                                      <br>
+                             Global Certification<br>
+                            at World’s Lowest<br>
+                            Price
+                         </div>
+                    </td>
+                </table>
+            </div>
+        </div>
+        <br clear=all>
+        <div id="page4">
+            <br><br>
+            <center><font size=+3>IANT Awards and Achievement</font></center>
+            <br><br>
+            <div id="page41">
+                <img id="img41" src="CompTIA_IANT1.jpg"><br><br>
+                <div id="page42">
+                <font size=+2>CompTIA No.1 APAC Partner</font><br><br>
+                IANT Received the "No.1 Partner of CopmTIA"<br>
+                Asia Pacific.<br>
+                <br>
+                <font color=blue>Jul 13, 2018</font><br>
+                <font color=blue>Washington DC</font>
+                 </div>                                   
+            </div>
+            <div id="page43">
+                <img id="img41" src="Primetime.jpg"><br><br>
+                <div id="page42">
+                <font size=+2>Prime Time Global Excelence</font><br><br>
+                IANT Received the "Prime Time Global<br>
+                Excelence" Award in 2017 as Best Advance<br>
+                Network & cyber security Training Instirute<br>
+                <br>
+                <font color=blue>Mar 05, 2017</font><br>
+                <font color=blue>Mumbai</font>
+            </div>
+                 </div>
+             <div id="page43">
+                <img id="img41" src="EducationTraining.jpg"><br><br>
+                <div id="page42">
+                <font size=+2>Education Traning & Job Enterprice Of The Year </font><br><br>
+                IANT Was Awardes "NEducation Traning & Job<br>
+                Enterprice Of The Year" Award 2017<br>
+                <br>
+                <font color=blue>Feb 27, 2017</font><br>
+                <font color=blue>Delhi</font>
+                 </div>                                   
+            </div>
+             
+            <br clear=all>
+            <div id="a42">
+                <ul id="a421"><li><a href="#">+ Know more</a></li></ul>
+            </div>
+        </div>
+        <br clear=all>
+        <div id="page5">
+            <br><br>
+            <center><font size=+3>IANT Affiliations</font></center>
+            <br><br>
+            <div id="a51">
+                <a href="#"><img id="a511" src="page51.png"></a>
+            </div>
+             <div id="a52">
+                <a href="#"><img id="a511" src="page52.png"></a>
+            </div>
+             <div id="a52">
+                <a href="#"><img id="a511" src="page53.png"></a>
+            </div>
+             <div id="a52">
+                <a href="#"><img id="a511" src="page54.png"></a>
+            </div>
+             <div id="a52">
+                <a href="#"><img id="a511" src="page55.png"></a>
+            </div>
+        </div>
+        <br clear=all>
+        <div id="page6">
+            <div id="page41">
+                <img id="img41" src="61.png"><br><br>
+                <div id="page42">
+                <font size=+2>IANT Educom LMS</font><br><br>
+                This tool has been specially developed for<br>
+               Technical and Engineering Students<br>
+                    enroll in College and Universities acros.....<br>
+                <br clear=all>
+                    <div id="a61">
+                <br>
+                        <a href="#"><font color=blue>Read more</font></a>
+                    </div>
+                 </div>                                   
+            </div>
+            <div id="page43">
+                <img id="img41" src="62.png"><br><br>
+                <div id="page42">
+                <font size=+2>IANT Academy LMS</font><br><br>
+                This tool has benn specially developed for<br>
+                    students. who want to prepare for<br>
+                    Competitive Exam - JEE -Main. JEE....<br>
+                <br>
+                 <div id="a61">
+                <br>
+                <a href="#"><font color=blue>Read more</font></a>
+                    </div>
+            </div>
+                 </div>
+             <div id="page43">
+                <img id="img41" src="63.png"><br><br>
+                <div id="page42">
+                <font size=+2>IANT Students LMS </font><br><br>
+                This tool has been developed for students<br>
+                    who have enrolled for IANT Classroom <br>
+                    Training as well as for students who have.....<br>
+                <br>
+                <div id="a61">
+                <br>
+                <a href="#"><font color=blue>Read more</font></a>
+                    </div>
+                 </div>                                   
+            </div>
+        </div>
+        <br clear=all>
+        <div id="page7">
+            <img src="pg7.png">
+        </div>
+        <br clear=all>
+        <div id="page8">
+            <center><font size=6px>Student Activities</font></center>
+            <br><br>
+            <div id="pg81">
+                <img src="81.png">
+            </div>
+             <div id="pg81">
+                <img src="82.png">
+            </div>
+             <div id="pg81">
+                <img src="83.png">
+            </div>
+            <br clea=all>
+             <div id="a42">
+                <ul id="a421"><li><a href="#">+ view more</a></li></ul>
+            </div>
+        </div>
+        <br clear=all>
+        <div id="page9">
+            <br><br>
+          <center><font size=6px>IANT Vedios</font></center>
+            <br><br>
+            <div id="pg91">
+                <img id="img91" src="91.jpg">
+                <br><br>
+                <div id="a91">
+                    <font size=+1><b>IANT Possible (english) 2012</b></font>
+                    <br><br><br>
+                    Year : (2012)<br>
+                    Language : English
+                </div>
+            </div>
+             <div id="pg91">
+                <img id="img91" src="92.jpg">
+                <br><br>
+                <div id="a91">
+                    <font size=+1><b>IANT Official Vedio</b></font>
+                    <br><br><br>
+                    Year : (2018)<br>
+                    Language : English
+                </div>
+            </div>
+             <div id="pg91">
+                <img id="img91" src="93.jpg">
+                <br><br>
+                <div id="a91">
+                    <font size=+1><b>IANT Official Vedio</b></font>
+                    <br><br><br>
+                    Year : (2017)<br>
+                    Language : English
+                </div>
+            </div>
+            <br>
+             <div id="a42">
+              <ul id="a421"><li><a href="#">+ Know more</a></li></ul>
+            </div>
+        </div>
+        <br clear=all>
+        <style>
+            #page10
+            {
+                width: auto;
+                height: 650px;
+                padding-left: 120px;
+                background-image: url(bg10.jpg);
+                padding-right: 120px;
+            }
+            #a101
+            {
+                width: 300px;
+                height: 340px;
+               
+                float: left;
+                margin: 20px;
+                margin-top: 50px;
+            }
+            #img101
+            {
+                width: 300px;
+                height: 340px;
+            }
+            #b102
+            {
+                float: left
+            }
+        </style>
+        <div id="page10">
+            <br><br>
+          <center><font size=6px>Students Speaks</font></center>
+            <br><br>
+            <div id="a101">
+                <img id="img101"src="101.jpg">
+            </div>
+            <div id="b102">
+                <img id="img102"src="102.jpg">
+            </div>
+            <div id="a101">
+                <img id="img101"src="103.jpg">
+            </div>
+            <br clear=all>
+            <div id="a42">
+              <ul id="a421"><li><a href="#">+ View more</a></li></ul>
+            </div>
+        </div>
+        <br clear=all>
+        <div id="page11">
+            <div id="a11">
+                <center><font size=+2>Academic Education & Professional Testing Center</font></center>
+                <br><br><br>
+                <img src="111.png">
+                <br><br>
+                <b><font size=+2>Biggest Authorized Partner</font></b>
+                <br><br>
+                <font color=blue>Academic Education & Professional Testing Center…</font> Our clients, whether in<br> commercial, financial or government sectors, experience real results when they<br> work with us. We combine industry...
+                <br>
+                <div id="a42">
+              <ul id="a421"><li><a href="#">+ Know more</a></li></ul>
+            </div>
+            </div>
+             <div id="a12">
+                <center><font size=+2>Star Cyber Secure User</font></center>
+                 <br><br>
+                 <img src="112.png">
+                 <br><br>
+                  <b><font size=+2>Get Free SCSU training &<br>
+                        Participation Certificate</font></b>
+                 <br><br>
+             The purpose of the SCSU training program is to provide students with the<br>
+             necessary knowledge and skills to protect their Information assests. This class will<br> immerse students in an interactive environment where they will acquire <br>
+            fundamental understanding.....<br>
+                 <div id="a42">
+              <ul id="a421"><li><a href="#">+ Know more</a></li></ul>
+            </div>
+            </div>
+        </div>
+        <br clear=all>
+        <div id="page12">
+            <div id="a121">
+                <br>
+                <center><b><font size=+1>STUDENT CARE CENTER</font></b></center>
+                <br><br>
+                <img id="img121" src="121.png">
+                <br><br>
+               <font size=+1> 8128228151 | 8128338151</font>
+            </div>
+            <br>
+            <div id="a122">
+                <b><font size=+1>COMPANY</font></b>
+                <br><br><br>
+                About<br><br>
+                Students Speak<br><br>
+                Awards<br><br>
+                IANT in News<br><br>
+                I-Partner Enquiry<br><br>
+                Contact<br> <br>
+            </div>
+            <div id="a122">
+                <b><font size=+1>COURCES</font></b>
+                <br><br><br>
+                Career Courses<br><br>
+                CompTIA<br><br>
+                Red Hat<br><br>
+                Star Certification<br><br>
+                Microsoft<br><br>
+                Cisco<br><br>
+                AWS Cloud<br><br>
+                Google Cloud<br> <br>              
+            </div>
+            <div id="a123">
+                <b><font size=+1>EXPLORE</font></b>
+                <br><br><br>
+                eBrochure<br><br>
+                IANT Magazine<br><br>
+                Life at IANT<br><br>
+                Careers<br><br>
+                Verify IANT Certificate<br><br>                          
+            </div>
+            <div id="a124">
+                <b><font size=+1>GROUP OF COMPANIES</font></b>
+                <br><br><br>
+                Coding Champion<br><br> 
+                IANT Kids<br><br> 
+                I-Tech<br><br> 
+                allitjob.com<br><br> 
+            </div>
+            <br clear=all>
+            <div id="a125">
+                © Copyright 2021, IANT Educom Pvt. Ltd
+            </div>
+        </div>
+    </body>
+</html>
